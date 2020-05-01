@@ -24,21 +24,13 @@ namespace ConsoleBronto
         {
             try
             {
-                List<PlayerDTO> PlayerList = new List<PlayerDTO>();
-                PlayerDTO ObjPlayer = new PlayerDTO();
-                int contador = 0;
+                List<BrontoResult> BrontoList = new List<BrontoResult>();
+                BrontoResult ObjBronto = new BrontoResult();
+                ObjBronto = new GenericHttpJson().PostEventResponse <BrontoResult, BrontoResult>(ObjBronto, "https://localhost:44346/api/Bronto/UpdateContactsData ", " ");
 
-                PlayerList =  new GenericHttpJson().PostEventResponse<List<PlayerDTO>, PlayerDTO> (ObjPlayer, "https://localhost:44346/api/Bronto/GetPlayers ", " ");
-
-                foreach (var item in PlayerList)
-                {
-                    Console.WriteLine(item.ToString());
-                    contador++;
-                }
-                Console.WriteLine("Total : " + contador);
-                Thread.Sleep(50000000);
-
-                ///test
+                Console.WriteLine(ObjBronto.ToString());
+                Console.Read();
+               
             }
             catch (Exception ex)
             {
