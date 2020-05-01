@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\BrontoResult.cs" />
+    <Compile Include="Models\BrontoResultItem.cs" />
     <Compile Include="Models\PlayerDTO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
