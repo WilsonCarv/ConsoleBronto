@@ -29,7 +29,7 @@ namespace ConsoleBronto
                 ObjBronto = new GenericHttpJson().PostEventResponse <BrontoResult, BrontoResult>(ObjBronto, "https://localhost:44346/api/Bronto/UpdateContactsData ", " ");
 
                 Console.WriteLine(ObjBronto.ToString());
-                Console.Read();
+                Thread.Sleep(5000);
                
             }
             catch (Exception ex)
