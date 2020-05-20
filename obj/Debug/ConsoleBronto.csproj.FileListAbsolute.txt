@@ -7,4 +7,3 @@ C:\Users\wilson\Desktop\Bronto\ConsoleBronto\obj\Debug\ConsoleBronto.csprojAssem
 C:\Users\wilson\Desktop\Bronto\ConsoleBronto\obj\Debug\ConsoleBronto.csproj.CopyComplete
 C:\Users\wilson\Desktop\Bronto\ConsoleBronto\obj\Debug\ConsoleBronto.exe
 C:\Users\wilson\Desktop\Bronto\ConsoleBronto\obj\Debug\ConsoleBronto.pdb
-C:\Users\wilson\Desktop\Bronto\ConsoleBronto\obj\Debug\ConsoleBronto.csproj.CoreCompileInputs.cache

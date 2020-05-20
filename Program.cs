@@ -26,7 +26,7 @@ namespace ConsoleBronto
             {
                 List<BrontoResult> BrontoList = new List<BrontoResult>();
                 BrontoResult ObjBronto = new BrontoResult();
-                ObjBronto = new GenericHttpJson().PostEventResponse <BrontoResult, BrontoResult>(ObjBronto, "https://localhost:44346/api/Bronto/UpdateContactsData ", " ");
+                ObjBronto = new GenericHttpJson().PostEventResponse <BrontoResult, BrontoResult>(ObjBronto, "https://localhost:44346/api/Bronto/UnfundedProcess ", " ");
 
                 Console.WriteLine(ObjBronto.ToString());
                 Thread.Sleep(5000);
