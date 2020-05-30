@@ -7,3 +7,12 @@ C:\Users\wilson\Desktop\Bronto\ConsoleBronto\obj\Debug\ConsoleBronto.csprojAssem
 C:\Users\wilson\Desktop\Bronto\ConsoleBronto\obj\Debug\ConsoleBronto.csproj.CopyComplete
 C:\Users\wilson\Desktop\Bronto\ConsoleBronto\obj\Debug\ConsoleBronto.exe
 C:\Users\wilson\Desktop\Bronto\ConsoleBronto\obj\Debug\ConsoleBronto.pdb
+C:\Users\wilson\Documents\Proyectos\Bronto\ConsoleBronto\bin\Debug\ConsoleBronto.exe.config
+C:\Users\wilson\Documents\Proyectos\Bronto\ConsoleBronto\bin\Debug\ConsoleBronto.exe
+C:\Users\wilson\Documents\Proyectos\Bronto\ConsoleBronto\bin\Debug\ConsoleBronto.pdb
+C:\Users\wilson\Documents\Proyectos\Bronto\ConsoleBronto\bin\Debug\Newtonsoft.Json.dll
+C:\Users\wilson\Documents\Proyectos\Bronto\ConsoleBronto\bin\Debug\Newtonsoft.Json.xml
+C:\Users\wilson\Documents\Proyectos\Bronto\ConsoleBronto\obj\Debug\ConsoleBronto.csprojAssemblyReference.cache
+C:\Users\wilson\Documents\Proyectos\Bronto\ConsoleBronto\obj\Debug\ConsoleBronto.csproj.CopyComplete
+C:\Users\wilson\Documents\Proyectos\Bronto\ConsoleBronto\obj\Debug\ConsoleBronto.exe
+C:\Users\wilson\Documents\Proyectos\Bronto\ConsoleBronto\obj\Debug\ConsoleBronto.pdb

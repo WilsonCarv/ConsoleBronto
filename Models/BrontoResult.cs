@@ -24,6 +24,8 @@ namespace ConsoleBronto.Models
                 cadena += item.ToString() + "\n";
                 contador++;
             }
+            if (HasErrors)
+                contador = 0;
             cadena += "\n" + "Total contacts updated : " + contador;
             return cadena;
         }

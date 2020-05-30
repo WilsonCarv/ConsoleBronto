@@ -24,11 +24,18 @@ namespace ConsoleBronto
         {
             try
             {
-                List<BrontoResult> BrontoList = new List<BrontoResult>();
-                BrontoResult ObjBronto = new BrontoResult();
-                ObjBronto = new GenericHttpJson().PostEventResponse <BrontoResult, BrontoResult>(ObjBronto, "https://localhost:44346/api/Bronto/UnfundedProcess ", " ");
-
-                Console.WriteLine(ObjBronto.ToString());
+                BrontoResult ObjBrontoJazz = new BrontoResult();
+                ObjBrontoJazz = new GenericHttpJson().PostEventResponse <BrontoResult, BrontoResult>(ObjBrontoJazz, "https://localhost:44346/api/Bronto/UnfundedProcessJazz ", " ");
+                Console.WriteLine("=========================Jazz SportsBook=======================");
+                Console.WriteLine(ObjBrontoJazz.ToString());
+                Console.WriteLine("==========================ABC Islands==========================");
+                BrontoResult ObjBrontoABC = new BrontoResult();
+                ObjBrontoABC = new GenericHttpJson().PostEventResponse<BrontoResult, BrontoResult>(ObjBrontoABC, "https://localhost:44346/api/Bronto/UnfundedProcessABC ", " ");
+                Console.WriteLine(ObjBrontoABC.ToString());
+                Console.WriteLine("==========================Loose lines==========================");
+                BrontoResult ObjBrontoLooseLines = new BrontoResult();
+                ObjBrontoLooseLines = new GenericHttpJson().PostEventResponse<BrontoResult, BrontoResult>(ObjBrontoLooseLines, "https://localhost:44346/api/Bronto/UnfundedProcessLooseLines ", " ");
+                Console.WriteLine(ObjBrontoLooseLines.ToString());
                 Thread.Sleep(5000);
                
             }
