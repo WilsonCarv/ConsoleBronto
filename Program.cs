@@ -11,17 +11,20 @@ using System.Net.Http.Headers;
 using System.Threading;
 using ConsoleBronto.Models;
 using WagerCoreWebAPI.Utils.Http;
+using ConsoleBronto.Utils;
 
 namespace ConsoleBronto
 {
     class Program
     {
+       
         static void Main(string[] args)
         {
             GetPlayers();
         }
         public static void GetPlayers()
         {
+             string _ClassName = "Console Bronto";
             try
             {
                 BrontoResult ObjBrontoJazz = new BrontoResult();
@@ -41,7 +44,7 @@ namespace ConsoleBronto
             }
             catch (Exception ex)
             {
-
+                new LogError().LogErrors(_ClassName, System.Reflection.MethodBase.GetCurrentMethod().Name, JsonConvert.SerializeObject(ex));
                 throw ex;
             }
         }
